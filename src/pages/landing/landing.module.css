@@ -1,0 +1,13 @@
+.containerBox {
+	background-color: #fbe5e3;
+}
+.box_1,
+.box_2 {
+	background-color: #fffcf7;
+	border: 0.5px solid transparent;
+	border-radius: 5px;
+}
+/* .box_1 {
+}
+.box_2 {
+} */
