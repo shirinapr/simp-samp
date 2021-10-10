@@ -1,13 +1,147 @@
-.containerBox {
-	background-color: #fbe5e3;
+/* * */
+.a:hover {
+	color: violet;
 }
+/* * */
+/* layout */
 .box_1,
-.box_2 {
+.box_2,
+.box_3 {
 	background-color: #fffcf7;
 	border: 0.5px solid transparent;
-	border-radius: 5px;
+	border-radius: 35px;
+	margin-top: 25px;
 }
-/* .box_1 {
+.box_1 {
+	height: 95vh;
 }
-.box_2 {
-} */
+.box_2,
+.box_3 {
+	height: 46vh;
+}
+/* layout */
+/* nav */
+.nav {
+	position: relative;
+	padding: 65px 75px 20px 75px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 18px;
+}
+.name {
+	font-family: openSans;
+	font-weight: bolder;
+	font-size: 22px;
+}
+
+.anav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 500;
+	position: absolute;
+	font-size: 16px;
+}
+.anav1 {
+	margin-left: 425px;
+}
+.anav2 {
+	margin-left: 520px;
+}
+.anav3 {
+	margin-left: 615px;
+}
+.anav4 {
+	margin-left: 710px;
+}
+.anav5 {
+	margin-left: 795px;
+}
+/* nav */
+/* main */
+
+.mainContainer {
+	/* background-color: tomato; */
+	display: flex;
+	margin-top: 100px;
+	padding: 20px 10px 0px 75px;
+}
+.mainInfo {
+	width: 300px;
+	font-size: 18px;
+	color: #a1a09d;
+}
+.mainHead {
+	font-size: 32px;
+	font-weight: bolder;
+}
+.imgParent {
+	display: flex;
+	margin-top: -120px;
+}
+.mainfoot {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+
+	width: 80%;
+}
+.circles {
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	margin-left: 53px;
+}
+.circle1,
+.circle2 {
+	margin-top: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: solid 1px transparent;
+	background-color: #f1dee0;
+}
+.circle2 {
+	margin-top: 15px;
+}
+.circle3 {
+	position: absolute;
+	top: 131px;
+	right: -4px;
+	width: 58px;
+	height: 58px;
+	border-radius: 50%;
+	border: 1.5px solid #c29591;
+}
+/* main */
+/* footer */
+.emp {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 35px;
+}
+.columnContainer {
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+	padding: 0px 75px;
+	margin-top: 50px;
+}
+.colInfo {
+	font-weight: bold;
+	font-size: 20px;
+}
+.column {
+	padding: 15px;
+	width: 220px;
+	font-size: 10px;
+	color: #b8b6b2;
+}
+/* footer */

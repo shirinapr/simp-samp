@@ -1,0 +1,22 @@
+.head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+.main {
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+}
+.info {
+	margin-top: 140px;
+}
+.boldInfo {
+	font-size: 18px;
+	font-weight: bold;
+}
+.mainInfo {
+	font-size: xx-small;
+	color: #939091;
+}

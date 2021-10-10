@@ -1,16 +1,41 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	background-color: #fbe5e3;
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+	font-family: openSans;
+	font-weight: normal;
 }
-
+@font-face {
+	font-family: openSans;
+	font-weight: 500;
+	src: url('../../public/font/Medium.ttf');
+}
+@font-face {
+	font-family: openSans;
+	font-weight: bold;
+	src: url('../../public/font/Bold.ttf');
+}
+@font-face {
+	font-family: openSans;
+	font-weight: bolder;
+	src: url('../../public/font/semibold.ttf');
+}
+@font-face {
+	font-family: openSans;
+	font-weight: normal;
+	src: url('../../public/font/regular.ttf');
+}
 a {
-  color: inherit;
-  text-decoration: none;
+	color: inherit;
+	text-decoration: none;
+}
+a:hover {
+	color: #c75f68;
+	transition: color 2s;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }

@@ -1,0 +1,19 @@
+.circle {
+	display: flex;
+	align-items: center;
+	white-space: nowrap;
+	width: 66px;
+	height: 66px;
+	border-radius: 50%;
+	border: solid 1px transparent;
+	background-color: #f6cacf;
+}
+.orderLink {
+	padding-left: 25px;
+	font-weight: bold;
+}
+.small {
+	width: 50px;
+	height: 50px;
+	font-size: 12px;
+}
